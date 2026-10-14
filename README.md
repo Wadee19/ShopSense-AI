@@ -15,7 +15,7 @@ I used real public data. I checked it, made charts, trained models, compared res
 ## The project in one picture
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Real shop data] --> B[Check and explore]
     B --> C[Prepare inputs]
     C --> D[Train and compare models]
