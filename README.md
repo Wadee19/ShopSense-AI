@@ -2,6 +2,8 @@
 
 **My first end-to-end machine learning portfolio project.**
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Wadee19/ShopSense-AI/blob/main/notebooks/shopsense_ai.ipynb)
+
 I wanted to answer one simple question:
 
 > Can a machine learning model use online shop session data to guess if a visitor will buy something?
@@ -77,6 +79,8 @@ I learned that **working code is not enough**. I must also check the data, libra
 [Read my learning journal →](docs/LEARNING_JOURNEY.md)
 
 ## Run it yourself in Google Colab
+
+**Fast option:** [Open the notebook directly in Colab](https://colab.research.google.com/github/Wadee19/ShopSense-AI/blob/main/notebooks/shopsense_ai.ipynb).
 
 1. Open [Google Colab](https://colab.research.google.com/) and upload [`notebooks/shopsense_ai.ipynb`](notebooks/shopsense_ai.ipynb).
 2. Run the first setup cell. It installs `scikit-learn==1.8.0`. **Restart the Colab session if it asks you to**, then run the notebook from the top.
