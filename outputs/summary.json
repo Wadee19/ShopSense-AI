@@ -1,0 +1,27 @@
+{
+  "data": {
+    "rows": 12330,
+    "columns": 18,
+    "positive_sessions": 1908
+  },
+  "split": {
+    "train": 8807,
+    "validation": 1762,
+    "test": 1761
+  },
+  "selected_model": "RF_leaf5",
+  "threshold": 0.25,
+  "page_values_in_main_model": false,
+  "validation": {
+    "AP": 0.3800565779101379,
+    "F1": 0.43217665615141954
+  },
+  "test": {
+    "AP": 0.39125534377307064,
+    "ROC_AUC": 0.7834190929561885,
+    "precision": 0.35405405405405405,
+    "recall": 0.48161764705882354,
+    "F1": 0.40809968847352024,
+    "accuracy": 0.7842135150482681
+  }
+}

@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.kaggle/
+kaggle.json
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+*.pyc
+*.joblib
