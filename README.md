@@ -15,7 +15,7 @@ I used real public data. I checked it, made charts, trained models, compared res
 ## The project in one picture
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Real shop data] --> B[Check and explore]
     B --> C[Prepare inputs]
     C --> D[Train and compare models]
@@ -47,7 +47,9 @@ I did not use `PageValues` in my main model. It may include information related 
 
 **Important:** These are results on held-out historical sessions, not proof of business value or live performance. Model scores are not guaranteed calibrated probabilities.
 
-### Charts from the real notebook run
+### Charts based on verified notebook results
+
+These four SVG charts were redrawn from the recorded metrics to make them easy to read on GitHub. They are **not direct image exports from the notebook**. The executed notebook contains the original plots and analysis.
 
 **Purchase rates across the three split groups:**
 
