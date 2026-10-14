@@ -1,0 +1,12 @@
+{
+  "filename": "online_shoppers_intention.csv",
+  "source": "Original UCI online_shoppers_intention.csv (2018); text retrieved 2026-10-14 and encoded as UTF-8 with BOM",
+  "source_url": "https://archive.ics.uci.edu/ml/machine-learning-databases/00468/online_shoppers_intention.csv",
+  "documentation": "https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset",
+  "retrieval_date": "2026-10-14",
+  "note": "All 12,330 UCI CSV records retrieved via web content extraction, then text-exported and copied to data/. Text export added a UTF-8 BOM and normalized line endings; checksum is of packaged file, not guaranteed identical to UCI HTTP bytes.",
+  "sha256": "a7e2714f884a221e95822830fe8e4400e9365d5e5af7c619f3fc6c9343254ad6",
+  "rows": 12330,
+  "columns": 18,
+  "license": "CC BY 4.0 (original UCI listing); Kaggle mirror terms/revision not independently verified"
+}

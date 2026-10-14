@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-14",
+  "scope": "User-executed Google Colab notebook and downloaded artifacts; inspected and repackaged locally",
+  "dataset_sha256": "a7e2714f884a221e95822830fe8e4400e9365d5e5af7c619f3fc6c9343254ad6",
+  "notebook": {
+    "cells": 57,
+    "code_cells": 39,
+    "all_code_cells_executed": true,
+    "no_error_outputs": true,
+    "source_matches_original_except_added_sklearn_install_cell": true
+  },
+  "colab_runtime_versions": {
+    "python": "3.13.16",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "numpy": "2.1.3"
+  },
+  "original_local_runtime_versions": {
+    "python": "3.13.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "numpy": "2.3.5"
+  },
+  "split": [
+    {
+      "partition": "train",
+      "sessions": 8807,
+      "purchase_rate": 0.15476325650051095,
+      "share_of_data": 0.7142741281427413
+    },
+    {
+      "partition": "validation",
+      "sessions": 1762,
+      "purchase_rate": 0.15493757094211125,
+      "share_of_data": 0.1429034874290349
+    },
+    {
+      "partition": "test",
+      "sessions": 1761,
+      "purchase_rate": 0.15445769449176605,
+      "share_of_data": 0.14282238442822384
+    }
+  ],
+  "model": "RF_leaf5",
+  "threshold": 0.25,
+  "validation": {
+    "AP": 0.3800565779101379,
+    "ROC_AUC": 0.7852013667997549,
+    "precision": 0.37950138504155123,
+    "recall": 0.5018315018315018,
+    "F1": 0.43217665615141954,
+    "accuracy": 0.7956867196367764,
+    "predicted_positive": 361
+  },
+  "test": {
+    "AP": 0.39125534377307064,
+    "ROC_AUC": 0.7834190929561885,
+    "precision": 0.35405405405405405,
+    "recall": 0.48161764705882354,
+    "F1": 0.40809968847352024,
+    "accuracy": 0.7842135150482681,
+    "predicted_positive": 370
+  },
+  "matches_original_local_split_and_metrics": true,
+  "colab_model_load_and_inference_verified_in_local_sklearn_1_8": true,
+  "notes": [
+    "The Colab run was executed by the user, not by the packaging process.",
+    "scikit-learn 1.6.1 previously produced different grouped partitions and metrics; 1.8.0 reproduced the original result.",
+    "This is a version-sensitive split. For stronger long-term stability, persist split assignments or use a version-independent split policy in a future revision."
+  ]
+}

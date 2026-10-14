@@ -1,0 +1,7 @@
+candidate,reason,method,cv_AP_mean,AP,decision
+RF_leaf5,Test smoother leaf estimates,Training 3-fold stratified-group CV + validation,0.3543639057496195,0.3800565779101379,Primary candidate selected
+RF_leaf2,Nonlinear starting point with 160 trees,Training 3-fold stratified-group CV + validation,0.35210917800143465,0.37496977420647815,"Compared, not selected"
+RF_balanced_depth12,Test weighted and restricted forest jointly; interactions possible,Training 3-fold stratified-group CV + validation,0.35566211574699036,0.37186695280841814,"Compared, not selected"
+LR_default_C1,Simple regularized linear starting point,Training 3-fold stratified-group CV + validation,0.3237742131471455,0.33404902041606505,"Compared, not selected"
+LR_stronger_C0.3,"Test stronger shrinkage, one change",Training 3-fold stratified-group CV + validation,0.32476674298639674,0.33336345237347453,"Compared, not selected"
+LR_balanced_C1,"Test class imbalance handling, one change",Training 3-fold stratified-group CV + validation,0.32423761312420996,0.3307798343250802,"Compared, not selected"
