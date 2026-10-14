@@ -1,20 +1,44 @@
 {
   "data": {
+    "filename": "online_shoppers_intention.csv",
+    "source": "Original UCI online_shoppers_intention.csv (2018); text retrieved 2026-10-14 and encoded as UTF-8 with BOM",
+    "sha256": "a7e2714f884a221e95822830fe8e4400e9365d5e5af7c619f3fc6c9343254ad6",
     "rows": 12330,
     "columns": 18,
     "positive_sessions": 1908
   },
-  "split": {
-    "train": 8807,
-    "validation": 1762,
-    "test": 1761
-  },
+  "split": [
+    {
+      "partition": "train",
+      "sessions": 8807,
+      "purchase_rate": 0.15476325650051095,
+      "share_of_data": 0.7142741281427413
+    },
+    {
+      "partition": "validation",
+      "sessions": 1762,
+      "purchase_rate": 0.15493757094211125,
+      "share_of_data": 0.1429034874290349
+    },
+    {
+      "partition": "test",
+      "sessions": 1761,
+      "purchase_rate": 0.15445769449176605,
+      "share_of_data": 0.14282238442822384
+    }
+  ],
   "selected_model": "RF_leaf5",
+  "use_engineered_feature": false,
+  "page_values_in_headline_model": false,
   "threshold": 0.25,
-  "page_values_in_main_model": false,
   "validation": {
     "AP": 0.3800565779101379,
-    "F1": 0.43217665615141954
+    "ROC_AUC": 0.7852013667997549,
+    "precision": 0.37950138504155123,
+    "recall": 0.5018315018315018,
+    "F1": 0.43217665615141954,
+    "accuracy": 0.7956867196367764,
+    "predicted_positive": 361
   },
   "test": {
     "AP": 0.39125534377307064,
@@ -22,6 +46,13 @@
     "precision": 0.35405405405405405,
     "recall": 0.48161764705882354,
     "F1": 0.40809968847352024,
-    "accuracy": 0.7842135150482681
+    "accuracy": 0.7842135150482681,
+    "predicted_positive": 370
+  },
+  "libraries": {
+    "python": "3.13.16",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "numpy": "2.1.3"
   }
 }
