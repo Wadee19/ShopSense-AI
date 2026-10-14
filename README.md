@@ -2,6 +2,8 @@
 
 **My first end-to-end machine learning portfolio project.**
 
+[![Repository integrity checks](https://github.com/Wadee19/ShopSense-AI/actions/workflows/integrity.yml/badge.svg)](https://github.com/Wadee19/ShopSense-AI/actions/workflows/integrity.yml)
+
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Wadee19/ShopSense-AI/blob/main/notebooks/shopsense_ai.ipynb)
 
 I wanted to answer one simple question:
@@ -109,6 +111,10 @@ ShopSense-AI/
 └── README.md                      # This page
 ```
 
+## Verification and reproducibility
+
+I reran the complete 39-code-cell notebook in a clean local folder during the repository audit. The model selection, split, threshold, and all six saved test metrics matched. The [audit report](docs/AUDIT_REPORT.md) explains what passed and what remains limited. A small [automated integrity test](tests/test_repo_integrity.py) checks the published dataset, notebook and saved results on GitHub; it does not retrain the model.
+
 ## What I learned
 
 I learned to **ask a clear question**, **check data**, **avoid data leakage**, **split data before making choices**, **compare models**, **use validation for decisions**, and **test only after my choices are fixed**. I also learned that a result must be easy for another person to repeat.
@@ -122,6 +128,7 @@ I still need to learn more about time-based testing, probability calibration and
 - [How to read my results](docs/RESULTS_EXPLAINED.md)
 - [Model card — what this model can and cannot do](docs/MODEL_CARD.md)
 - [Full technical notes and experiment table](docs/TECHNICAL_NOTES.md)
+- [Reproducibility audit and remaining limitations](docs/AUDIT_REPORT.md)
 - [Dataset details and credits](data/README.md)
 - [How to publish on GitHub](docs/PUBLISH_ON_GITHUB.md)
 
